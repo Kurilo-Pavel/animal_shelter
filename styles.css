@@ -103,7 +103,7 @@
   align-items: flex-end;
   flex-direction: column;
   gap: 50px;
-  width: 1070px;
+  width: 1010px;
   right: 80px;
   z-index: 2;
 }
@@ -131,7 +131,7 @@
 
 .play {
   position: absolute;
-  bottom: 0;
+  bottom: -60px;
   left: 50%;
   cursor: pointer;
 }
@@ -142,6 +142,7 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
+  margin-top: 160px;
 }
 
 .help_cards {
