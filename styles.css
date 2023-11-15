@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 158px;
+  width: 100%;
+  background: #E88224;
+}
+
+.logo {
+  position: relative;
+  cursor: pointer;
+}
+
+.navigate {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: 76px;
+}
+
+.head_button {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.languages {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  right: 50px;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main_part {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: min-content;
+  top: 170px;
+  left: 77px;
+  z-index: 2;
+}
+
+.main_title {
+  font-family: Inter, sans-serif;
+  font-weight: 800;
+  font-size: 125px;
+  text-transform: lowercase;
+  line-height: 0.8;
+}
+
+.main_text {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: lowercase;
+}
+
+.main_button {
+  padding: 15px;
+  font-family: Inter, sans-serif;
+  font-size: 45px;
+  color: #FFFFFF;
+  background: #242236;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.main_dog {
+  position: relative;
+}
+
+.aboutUs {
+  position: relative;
+  display: flex;
+}
+
+.aboutUs_part {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 50px;
+  width: 1070px;
+  right: 80px;
+  z-index: 2;
+}
+
+.sub_title {
+  margin-bottom: 15px;
+  color: #E88224;
+  text-transform: uppercase;
+  font-family: Inter, sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.aboutUs_text {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Inter, sans-serif;
+  text-align: right;
+}
+
+.aboutUs_dog {
+  position: relative;
+  top: -85px;
+}
+
+.play {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  cursor: pointer;
+}
+
+.help {
+  position: relative;
+  margin-inline: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.help_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: min-content;
+}
+
+.wrapper_img {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 530px;
+  height: 490px;
+}
+
+.number {
+  position: absolute;
+  display: flex;
+  width: 130px;
+  height: 130px;
+  bottom: 40px;
+  left: 25px;
+  border-radius: 50%;
+  background: #01B6CF;
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+}
+
+.help_text {
+  height: 300px;
+  font-family: Inter, sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.help_button {
+  background: #E88224;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Inter, sans-serif;
+  cursor: pointer;
+}
+
+.requisites {
+  position: relative;
+  display: flex;
+  margin-top: 150px;
+}
+
+.requisites_part {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 60px;
+  width: 700px;
+  top: 10px;
+  right: 80px;
+}
+
+.requisites_text {
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #242236;
+  text-align: right;
+}
+
+.inst_button {
+  padding: 10px 40px;
+  font-family: Inter, sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  background: #242236;
+  color: #FFFFFF;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact {
+  margin-left: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #242236;
+}
+
+.requisites_img {
+  position: relative;
+}
+
+.requisites_logo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
