@@ -2,32 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DalaiLapa</title>
+  <title>Dalai Lapa</title>
+  <link rel="icon" type="text/css" sizes="40x40" href="./images/favicon-32x32.png"/>
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:type" content="website">
   <link rel="stylesheet" href="./fonts.css"/>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 <header id="header" class="header">
-  <img src="./images/logo.svg" alt="Logo" class="logo">
+  <a href="#top" class="wrapper_logo"><img src="./images/logo.svg" alt="Logo" class="logo"></a>
+  <input type="checkbox" id="burger">
+  <label for="burger" class="burger">
+    <span class="menu_burger"></span>
+  </label>
   <nav class="navigate">
-    <a href="#aboutUs" class="head_button">О нас</a>
-    <a href="#help" class="head_button">Как помочь</a>
-    <a href="#requisites" class="head_button">Реквизиты</a>
+    <a name="#aboutUs" class="head_button" onclick="hideList(this)">О нас</a>
+    <a name="#help" class="head_button" onclick="hideList(this)">Как помочь</a>
+    <a name="#requisites" class="head_button" onclick="hideList(this)">Реквизиты</a>
   </nav>
-  <div class="languages">
-    <span class="head_button">RU</span>
-    <span class="head_button">EN</span>
-  </div>
+
 </header>
-<section class="main">
-  <div class="main_part">
+<section id="top" class="section">
+  <div class="data_part">
     <h1 class="main_title">Помогаем животным</h1>
     <p class="main_text">Которые оказались на грани жизни и смерти — это более 70 собак</p>
-    <a href="" class="main_button">Как нам помочь</a>
+    <a name="#help" class="main_button" onclick="lightScroll(this)">Как нам помочь</a>
   </div>
   <img src="./images/bingo_2.png" alt="bingo" class="main_dog">
 </section>
-<section id="aboutUs" class="aboutUs">
+
+<section id="aboutUs" class="section">
+  <img src="./images/bingo_1.png" alt="bingo" class="aboutUs_dog">
   <div class="aboutUs_part">
     <h2 class="sub_title">О нас</h2>
     <p class="aboutUs_text">DalaiLapa – место, которое было создано в 2023 году, чтобы стать островком надежды для
@@ -35,13 +41,15 @@
       Небольшой командой простых неравнодушных людей мы делаем все возможное, чтобы однажды эти мокрые носы смогли
       засыпать и просыпаться у себя дома, со своим человеком рядом.
     </p>
+    <img src="./images/bingo_1.png" alt="bingo" class="aboutUs_next_dog">
     <p class="aboutUs_text">Присоединяйтесь к нашей инициативе! Каждый день мы заботимся о подопечных, ведем
-      интерактивный блог в инстаграме и ищем помощь: финансовую, информационную, а также помощь руками. Здесь вы можете
+      интерактивный блог в инстаграме и ищем помощь: финансовую, информационную, а также помощь руками. Здесь вы
+      можете
       узнать, как нас поддержать, и как стать частью команды.
     </p>
   </div>
-  <img src="./images/bingo_1.png" alt="bingo" class="aboutUs_dog">
 </section>
+
 <section id="help" class="help">
   <h2 class="sub_title">Как помочь?</h2>
   <div class="help_cards">
@@ -79,9 +87,11 @@
     </div>
   </div>
 </section>
+
 <section id="requisites" class="requisites">
+  <a href="#header"><img src="./images/logo.svg" alt="logo" class="requisites_logo"></a>
   <div class="requisites_part">
-    <h2 class="sub_title">Реквизиты</h2>
+    <h2 class="sub_title title_requisites">Реквизиты</h2>
     <p class="requisites_text">BY29AKBB30150000411390000000 Филиал 510, ОАО "АСБ Беларусбанк" БИК АКВВBY2X УНП
       193647387</p>
     <p class="requisites_text">Учреждение "Центр помощи бездомным животным "Долина трёх китов"</p>
@@ -93,10 +103,10 @@
     <a href="#header"><img src="./images/logo.svg" alt="logo" class="footer_logo"></a>
     <div class="contacts">
       <a href="">
-        <img src="./images/telegram.svg" alt="telegram">
+        <img src="./images/telegram.svg" alt="telegram" class="messenger">
       </a>
       <a href="viber://chat?number=%2B375293968451">
-        <img src="./images/viber.svg" alt="viber">
+        <img src="./images/viber.svg" alt="viber" class="messenger">
       </a>
       <p class="contact">+375 29 396 8451</p>
       <p class="contact">Ольга</p>
@@ -104,5 +114,9 @@
   </div>
   <img src="./images/Ellipse.png" alt="Ellipse" class="footer_img">
 </footer>
+<div class="developer">
+  Команда разработчиков -<a class="team_name" href="https://www.linkedin.com/company/the-lessoner">The Lessoner</a>
+</div>
 </body>
+<script src="script.js"></script>
 </html>
