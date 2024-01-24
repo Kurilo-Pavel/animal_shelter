@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #burger {
@@ -72,7 +72,7 @@ html {
     height: 0;
   }
   to {
-    height: 600px;
+    height: 1000px;
     visibility: visible;
   }
 }
@@ -412,19 +412,7 @@ html {
   letter-spacing: 1px;
 }
 
-@media (max-width: 1900px) {
-  html {
-    font-size: 12px;
-  }
-}
-
 @media (max-width: 1670px) {
-  html {
-    font-size: 11px;
-  }
-}
-
-@media (max-width: 1470px) {
   html {
     font-size: 10px;
   }
@@ -480,7 +468,7 @@ html {
 
 @media (max-width: 600px) {
   html {
-    font-size: 7px;
+    font-size: 10px;
   }
   
   .header {
@@ -519,7 +507,7 @@ html {
   }
   
   .section {
-    grid-template-rows: 1.5fr 2fr;
+    grid-template-rows: 2.5fr 2fr;
     grid-template-columns:none;
   }
   
@@ -605,7 +593,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
     margin: 0;
     padding: 0;
     background: #E88224;
