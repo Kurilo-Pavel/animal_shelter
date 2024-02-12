@@ -6,7 +6,8 @@
 }
 
 html {
-  font-size: 12px;
+  font-size: 13px;
+  display: flex;
 }
 
 #burger {
@@ -123,6 +124,7 @@ html {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 10rem;
   width: 100%;
   overflow: hidden;
 }
@@ -177,7 +179,6 @@ html {
   display: block;
   position: relative;
   width: 100%;
-  top: -6rem;
 }
 
 .aboutUs_next_dog {
@@ -442,27 +443,15 @@ html {
   }
 }
 
-@media (max-width: 900px) {
-  html {
-    font-size: 5.5px;
-  }
-}
-
 @media (max-width: 810px) {
   html {
-    font-size: 5px;
+    font-size: 5.5px;
   }
 }
 
 @media (max-width: 710px) {
   html {
     font-size: 4.5px;
-  }
-}
-
-@media (max-width: 640px) {
-  html {
-    font-size: 4px;
   }
 }
 
@@ -509,6 +498,7 @@ html {
   .section {
     grid-template-rows: 2.5fr 2fr;
     grid-template-columns:none;
+    margin-top: 0;
   }
   
   .data_part {
