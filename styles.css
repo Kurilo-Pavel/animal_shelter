@@ -498,6 +498,7 @@ html {
   .section {
     /*grid-template-rows: 2.5fr 2fr;*/
     grid-template-columns:none;
+    margin-top: 7rem;
     /*margin-top: 0;*/
   }
   
@@ -505,8 +506,13 @@ html {
     margin: 12rem 0 2rem;
   }
   
+  .main_title {
+    font-size: 8rem;
+  }
+  
   .main_dog {
-    display: none;
+    width: 76%;
+    right: -70px;
   }
   
   .aboutUs_part {
@@ -518,6 +524,7 @@ html {
   
   .aboutUs_text {
     text-align: start;
+    font-size: 2.5rem;
   }
   
   .aboutUs_dog {
@@ -527,7 +534,8 @@ html {
   .aboutUs_next_dog {
     display: block;
     top: 0;
-    width: 90%;
+    left: -30px;
+    width: 80%;
   }
   
   .help {
